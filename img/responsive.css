@@ -1,0 +1,46 @@
+@media (max-widht: 1200px){
+    
+}
+@media (max-widht: 992px){
+    .slider_main{
+        padding-top: 15%;
+    }
+}   
+@media (max-widht: 768px){
+    .slider_main{
+        padding-top: 18%;
+    }
+}
+@media (max-widht: 480px){
+    .slider_main{
+        padding-top: 10%;
+    }
+
+    .relative h3{
+        padding-top: 30px;
+        font-size: 35px;
+        line-height: 1.2;
+    }
+
+    .relative h3 >br{
+        display: none;
+    }
+  
+}
+@media (max-widht: 320px){
+    ul.email li{
+        padding: 0 10px;
+    }
+
+    .header{
+        position: relative;
+    }
+
+    .boadr{
+        max-width: 90%;
+    }
+}
+
+.navbar-dark .navbar-toggler{
+    background-color: #333;
+}
